@@ -16,7 +16,7 @@ section img {
 }
 
 header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid#cccc;
     padding-top: 1em;
     padding-bottom: 1em;
     position: fixed;
@@ -68,9 +68,6 @@ header li {
     background-image: url("../imagens/github.png");
 }
 
-#contato .linkedin {
-    background-image: url("../imagens/linkedin.png");
-}
 
 .container {
     padding-left: 10%;
@@ -84,9 +81,9 @@ section {
 }
 
 .identificacao {
-    background-color: #579FF0;
+    background-color: #2B313E;
     color: #FCFCFD;
-    padding: 10em 2em 7em;
+    opacity: 10em 2em 7em;
 }
 
 .identificacao h1 {
@@ -95,7 +92,7 @@ section {
 }
 
 .identificacao h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
@@ -115,8 +112,8 @@ header li a {
 }
 
 .claras {
-    background-color: #FCFCFD;
-    color: #2B313E;
+    background-image: url("../imagens/controle.jpg");
+    color: #FCFCFD;
 }
 
 .projetos-header {
@@ -133,19 +130,19 @@ header li a {
 }
 
 .styleprojetos li {
-    background-color: #2B313E;
+    background-color:;
     padding: 1em;
     margin-bottom: 2em;
 }
 
 .styleprojetos li a {
-    color: #579FF0;
+    color: #FCFCFD;
     font-size: 1.3em;
 }
 
 .styleprojetos li p {
-    color: #2B3;
-    margin-top: 0.5em;
+    color: #FFFF00;
+    margin-top: 0.9em;
     text-align: justify;
     line-height: 1.2;
 }
