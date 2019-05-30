@@ -1,16 +1,21 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <?php
-    require_once 'view/head.php';
+    require_once '../../view/head.php';
     ?>
 </head>
 
 <body>
+    <?php
+    require_once '../../view/nav.php';
+    ?>
+
     <div class="container">
         <div class="row justify-content-center bg-light">
-            <form action="" method="POST">
+            <form action="usuarioDAO.php" method="POST">
                 <div class="form-group">
                     <label>Usuario</label>
                     <input type="text" class="form-control" name="usuario" id="usuario">
@@ -22,12 +27,14 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-prima" name="autenticar">Entrar</button>
-                    <a href="/sistema/index.html" class="btn btn-info">Voltar</a>
+                    <button type="submit" class="btn btn-prima" name="salvar">Salvar</button>
+
                 </div>
             </form>
         </div>
+
     </div>
+
 </body>
 
 </html>
