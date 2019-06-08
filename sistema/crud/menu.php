@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -8,11 +9,9 @@
 </head>
 
 <body>
-
     <?php
     require_once 'view/nav.php';
     ?>
-
 
 </body>
 
